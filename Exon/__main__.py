@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
                         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),
                         InlineKeyboardButton(
                             text="sᴜᴘᴘᴏʀᴛ",
-                            callback_data="ABG_support",
+                            callback_data="xtromsupport",
                         ),
                     ]
                 )
@@ -360,7 +360,7 @@ def help_button(update: Update, context: CallbackContext):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="ABG_support"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"ABG_support",
                 ]
             )
             query.message.edit_text(
@@ -488,7 +488,7 @@ def get_help(update: Update, context: CallbackContext):
             help_buttons.append(
                 [
                     InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="ABG_support"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"t.me/xtromsupport",
                 ]
             )
             send_help(
@@ -719,7 +719,7 @@ def main():
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ✨ .....
 
 ━━━━━━━━━━━━━
-⍟ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/{OWNER_USERNAME})
+⍟ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/aadarsh_legend)
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
